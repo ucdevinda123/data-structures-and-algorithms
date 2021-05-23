@@ -29,3 +29,15 @@ Implementations are in both **Kotlin** and **Java**
 - **Linear Search**  
 
                     O(N)  
+                    
+- **Binary Search**  
+                    
+                     Using Recursion     
+                                    Time : O(log2 n)
+                                    Storage : O(n)  // since it uses stack for recusion calls
+                                    
+                     Using Iteration
+                                   Time : O(log2 n)  
+                                   Storage : O(1)
+                      Prefer Recussion apporach :)                         
+                       
