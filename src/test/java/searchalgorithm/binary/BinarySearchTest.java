@@ -2,6 +2,7 @@ package searchalgorithm.binary;
 
 import org.junit.Assert;
 import org.junit.Test;
+import searchalgorithms.binarysearch.java.BinarySearchIteration;
 import searchalgorithms.binarysearch.java.BinarySearchRecursion;
 
 public class BinarySearchTest {
@@ -22,12 +23,36 @@ public class BinarySearchTest {
         Assert.assertEquals(3, result);
     }
 
+    @Test
+    public void testLinearSearchIterationKotlin1() {
+        Integer[] inputArray = {0, 1, 2, 3, 4};
+        int targetValue = 3;
+        int result = new searchalgorithms.binarysearch.kotlin.BinarySearchIteration().search(inputArray,targetValue);
+        Assert.assertEquals(3, result);
+    }
+
+    @Test
+    public void testBinarySearchIterationJava1() {
+        Integer[] inputArray = {0, 1, 2, 3, 4};
+        int targetValue = 3;
+        int result = new BinarySearchIteration().search(inputArray,targetValue);
+        Assert.assertEquals(3, result);
+    }
+
 
     @Test
     public void testBinarySearchRecursionJava2() {
         Integer[] inputArray = {0, 1, 2, 3, 4};
         int targetValue = 30;
         int result = new BinarySearchRecursion().search(inputArray,targetValue);
+        Assert.assertEquals(-1, result);
+    }
+
+    @Test
+    public void testBinarySearchIterationJava2() {
+        Integer[] inputArray = {0, 1, 2, 3, 4};
+        int targetValue = 30;
+        int result = new BinarySearchIteration().search(inputArray,targetValue);
         Assert.assertEquals(-1, result);
     }
 
@@ -40,6 +65,14 @@ public class BinarySearchTest {
     }
 
     @Test
+    public void testLinearSearchIterationKotlin2() {
+        Integer[] inputArray = {0, 1, 2, 3, 4};
+        int targetValue = 30;
+        int result = new searchalgorithms.binarysearch.kotlin.BinarySearchIteration().search(inputArray,targetValue);
+        Assert.assertEquals(-1, result);
+    }
+
+    @Test
     public void testBinarySearchRecursionJava3() {
         Integer[] inputArray = {};
         int targetValue = 3;
@@ -48,10 +81,26 @@ public class BinarySearchTest {
     }
 
     @Test
+    public void testBinarySearchIterationJava3() {
+        Integer[] inputArray = {};
+        int targetValue = 3;
+        int result = new BinarySearchIteration().search(inputArray,targetValue);
+        Assert.assertEquals(-1, result);
+    }
+
+    @Test
     public void testLinearSearchRecursionKotlin3() {
         Integer[] inputArray = {};
         int targetValue = 3;
         int result = new searchalgorithms.binarysearch.kotlin.BinarySearchRecursion().search(inputArray,targetValue);
+        Assert.assertEquals(-1, result);
+    }
+
+    @Test
+    public void testLinearSearchIterationKotlin3() {
+        Integer[] inputArray = {};
+        int targetValue = 3;
+        int result = new searchalgorithms.binarysearch.kotlin.BinarySearchIteration().search(inputArray,targetValue);
         Assert.assertEquals(-1, result);
     }
 }
