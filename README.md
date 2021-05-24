@@ -40,8 +40,9 @@ Implementations are in both **Kotlin** and **Java**
                                    Time : O(log2 n)  
                                    Storage : O(1)
                       Prefer Recussion apporach :)  
-                      
+                                 
 - **Ternary Search**  
+                     
                      Using Recursion     
                                   Time : O(log3 n)   
                                                       
