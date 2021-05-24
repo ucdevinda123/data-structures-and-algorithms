@@ -39,5 +39,10 @@ Implementations are in both **Kotlin** and **Java**
                      Using Iteration
                                    Time : O(log2 n)  
                                    Storage : O(1)
-                      Prefer Recussion apporach :)                         
+                      Prefer Recussion apporach :)  
+                      
+- **Ternary Search**  
+                     Using Recursion     
+                                  Time : O(log3 n)   
+                                                      
                        
