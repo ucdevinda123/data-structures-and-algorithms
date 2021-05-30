@@ -45,5 +45,11 @@ Implementations are in both **Kotlin** and **Java**
                      
                      Using Recursion     
                                   Time : O(log3 n)   
+  
+  
+                                  
+#1.)Data Structures Implementation
+- **Hash Map** - Implemented using Chaining method to avoid collation  
+  
                                                       
                        
