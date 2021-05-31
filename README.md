@@ -39,7 +39,10 @@ Implementations are in both **Kotlin** and **Java**
 ### 2.)Searching Algorithms
 
 - **Linear Search**  
-
+     * [Linear Search : Java](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/searchalgorithms/linearsearch/java/LinearSearch.java)   
+     * [Linear Search : Kotlin](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/searchalgorithms/linearsearch/kotlin/LinearSearch.kt)  
+     * [Test Case](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/test/java/searchalgorithm/linear/LinearSearchTest.java)     
+         
                     O(N)  
                     
 - **Binary Search**  
@@ -54,7 +57,10 @@ Implementations are in both **Kotlin** and **Java**
                       Prefer Recussion apporach :)  
                                  
 - **Ternary Search**  
-                     
+    * [Ternary Search : Java](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/searchalgorithms/ternarysearch/java/TernarySearchRecursion.java)   
+    * [Ternary Search : Kotlin](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/searchalgorithms/ternarysearch/kotlin/TernarySearchRecursion.kt)  
+    * [Test Case](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/test/java/searchalgorithm/ternarysearch/TernarySearchTest.java)     
+              
                      Using Recursion     
                                   Time : O(log3 n)   
   
