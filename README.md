@@ -24,7 +24,7 @@ Implementations are in both **Kotlin** and **Java**
 - **Merge Sort**     
      * [MergeSort : Java](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/sortingalgorithms/mergesort/java/MergeSort.java)   
      * [MergeSort : Kotlin](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/sortingalgorithms/mergesort/kotlin/MergeSort.kt)  
-     * [Test Case](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/test/java/sortingalgorithms/mergesort/MergeSortAlgorithmTest.java)     
+     * [Test Case](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/test/java/sortingalgorithms/mergesort/MergeSortSortAlgorithmTest.java)     
                                  
                      Divide :  O(log n)
                      Merge  :  O(n) 
@@ -64,4 +64,9 @@ Implementations are in both **Kotlin** and **Java**
 - **Hash Map** - Implemented using Chaining method to avoid collation  
    * [CustomHashTable : Java](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/datastructures/hashtable/java/CustomHashTable.java)
    * [CustomHashTable : Kotlin](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/datastructures/hashtable/kotlin/CustomHashTable.kt)
-   *  [Test Case](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/test/java/datastructures/TestHashTable.java)                                               
+   *  [Test Case](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/test/java/datastructures/TestHashTable.java)  
+   
+- **Stack** - Implementation for the Stack 
+   * [CustomStack : Java](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/datastructures/stack/java/CustomStack.java)
+   * [CustomStack : Kotlin](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/datastructures/stack/kotlin/CustomStack.kt)
+   *  [Test Case](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/test/java/datastructures/TestStack.java)                                                                                            
