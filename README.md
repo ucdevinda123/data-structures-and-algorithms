@@ -2,7 +2,7 @@
 various data structures and algorithms and interview questions
 Implementations are in both **Kotlin** and **Java**
 
-#1.)Sorting Algorithms
+###1.)Sorting Algorithms
 - **Bubble Sort**     
 
                         O(1) ~ O(N^2)
@@ -24,7 +24,7 @@ Implementations are in both **Kotlin** and **Java**
 
 - **Counting Sort**  - Todo
                      
-#1.)Searching Algorithms
+###2.)Searching Algorithms
 
 - **Linear Search**  
 
@@ -48,9 +48,8 @@ Implementations are in both **Kotlin** and **Java**
   
   
                                   
-#1.)Data Structures Implementation
+###3.)Data Structures Implementation
 - **Hash Map** - Implemented using Chaining method to avoid collation  
    * [CustomHashTable : Java](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/datastructures/hashtable/java/CustomHashTable.java)
-   *  [Test Case](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/test/java/datastructures/TestHashTable.java)
-                                                  
-                       
+   * [CustomHashTable : Kotlin](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/datastructures/hashtable/kotlin/CustomHashTable.kt)
+      *  [Test Case](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/test/java/datastructures/TestHashTable.java)                                               
