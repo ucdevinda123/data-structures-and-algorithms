@@ -50,9 +50,7 @@ Implementations are in both **Kotlin** and **Java**
                                   
 #1.)Data Structures Implementation
 - **Hash Map** - Implemented using Chaining method to avoid collation  
-   
-   Java Implementation : [/src/main/java/datastructures/hashtable/java/CustomHashTable.java](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/datastructures/hashtable/java/CustomHashTable.java)
-        
-   Test Case      : [/src/test/java/datastructures/TestHashTable.java] (https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/test/java/datastructures/TestHashTable.java)
-                                                      
+   * [CustomHashTable : Java](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/datastructures/hashtable/java/CustomHashTable.java)
+   *  [Test Case](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/test/java/datastructures/TestHashTable.java)
+                                                  
                        
