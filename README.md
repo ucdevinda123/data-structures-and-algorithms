@@ -72,7 +72,12 @@ Implementations are in both **Kotlin** and **Java**
    * [CustomHashTable : Kotlin](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/datastructures/hashtable/kotlin/CustomHashTable.kt)
    *  [Test Case](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/test/java/datastructures/TestHashTable.java)  
    
-- **Stack** - Implementation for the Stack 
+- **Stack** - Implementation for the Stack (LIFO)
    * [CustomStack : Java](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/datastructures/stack/java/CustomStack.java)
    * [CustomStack : Kotlin](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/datastructures/stack/kotlin/CustomStack.kt)
-   *  [Test Case](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/test/java/datastructures/TestStack.java)                                                                                            
+   *  [Test Case](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/test/java/datastructures/TestStack.java) 
+   
+- **Queue** - Implementation for the Queue (FIFO)
+      * [Queue (Circular Array) : Java](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/datastructures/queue/java/CustomQueueCircularArray.java)
+      * [Queue (Circular Array) : Kotlin](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/datastructures/queue/kotlin/CustomQueueCircularArray.kt)
+      *  [Test Case](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/test/java/datastructures/TestQueue.java)                                                                                                    
