@@ -80,4 +80,8 @@ Implementations are in both **Kotlin** and **Java**
 - **Queue** - Implementation for the Queue (FIFO)
     * [Queue (Circular Array) : Java](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/datastructures/queue/java/CustomQueueCircularArray.java)
     * [Queue (Circular Array) : Kotlin](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/datastructures/queue/kotlin/CustomQueueCircularArray.kt)
-    *  [Test Case](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/test/java/datastructures/TestQueue.java)                                                                                                    
+    *  [Test Case](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/test/java/datastructures/TestQueue.java)   
+    
+- **Dynamic Array** - Implementation for the Array List (Dynamic Array)
+    * [Dynamic Array : Java](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/datastructures/array/java/CustomArray.java)
+    *  [Test Case](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/test/java/datastructures/TestArray.java)                                                                                                 
