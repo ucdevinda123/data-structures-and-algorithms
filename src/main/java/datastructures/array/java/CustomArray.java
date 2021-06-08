@@ -15,7 +15,8 @@ public class CustomArray<T> {
     public boolean add(T t) {
         if (isFull()) {
             int length = dataArray.length;
-            Object[] newArray = new Object[size * 2];
+            size = size * 2;
+            Object[] newArray = new Object[size];
             for (int i = 0; i < length; i++) {
                 newArray[i] = dataArray[i];
             }

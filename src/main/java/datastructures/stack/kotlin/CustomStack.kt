@@ -32,4 +32,6 @@ class CustomStack<E>(var size: Int) {
         return array.copyOfRange(0, count)
     }
 
+    fun isEmpty() : Boolean { return count == 0}
+
 }

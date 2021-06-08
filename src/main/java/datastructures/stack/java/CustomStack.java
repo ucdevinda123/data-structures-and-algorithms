@@ -41,4 +41,6 @@ public class CustomStack<E> {
     public Object[] getDataList() {
         return Arrays.copyOfRange(dataList, 0, count);
     }
+
+    public boolean isEmpty() { return  count == 0; }
 }

@@ -80,7 +80,16 @@ Implementations are in both **Kotlin** and **Java**
 - **Queue** - Implementation for the Queue (FIFO)
     * [Queue (Circular Array) : Java](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/datastructures/queue/java/CustomQueueCircularArray.java)
     * [Queue (Circular Array) : Kotlin](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/datastructures/queue/kotlin/CustomQueueCircularArray.kt)
-    *  [Test Case](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/test/java/datastructures/TestQueue.java)   
+    * [Queue (With Two Stacks) : Java](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/datastructures/queue/java/QueueWithTwoStacks.java)
+         
+         * [leetcode 232](https://leetcode.com/problems/implement-queue-using-stacks/)  
+         
+               
+             enqueue(item : T) - 0(1)
+             peek and pop O(N) Since we have to move items from primary stack to the other     
+                                         
+    
+   *  [Test Case](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/test/java/datastructures/TestQueue.java)   
     
 - **Dynamic Array** - Implementation for the Array List (Dynamic Array)
     * [Dynamic Array : Java](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/datastructures/array/java/CustomArray.java)
