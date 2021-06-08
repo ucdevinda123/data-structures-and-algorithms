@@ -74,4 +74,26 @@ public class TestQueue {
         Assert.assertEquals(true, queueWithTwoStacks.isEmpty());
     }
 
+    @Test
+    public void testQueueWithDoubleStackImplementationKotlin() {
+        datastructures.queue.kotlin.QueueWithTwoStacks<Integer> queueWithTwoStacks = new datastructures.queue.kotlin.QueueWithTwoStacks<>(5);
+        queueWithTwoStacks.enqueue(10);
+        queueWithTwoStacks.enqueue(20);
+        queueWithTwoStacks.enqueue(30);
+        queueWithTwoStacks.enqueue(40);
+        queueWithTwoStacks.enqueue(50);
+
+        Assert.assertEquals(10, queueWithTwoStacks.peek());
+        queueWithTwoStacks.dequeue();
+        Assert.assertEquals(20, queueWithTwoStacks.peek());
+        queueWithTwoStacks.dequeue();
+        Assert.assertEquals(30, queueWithTwoStacks.peek());
+        queueWithTwoStacks.dequeue();
+        Assert.assertEquals(40, queueWithTwoStacks.peek());
+        queueWithTwoStacks.dequeue();
+        Assert.assertEquals(50, queueWithTwoStacks.peek());
+        queueWithTwoStacks.dequeue();
+        Assert.assertEquals(true, queueWithTwoStacks.isEmpty());
+    }
+
 }

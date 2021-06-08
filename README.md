@@ -81,12 +81,16 @@ Implementations are in both **Kotlin** and **Java**
     * [Queue (Circular Array) : Java](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/datastructures/queue/java/CustomQueueCircularArray.java)
     * [Queue (Circular Array) : Kotlin](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/datastructures/queue/kotlin/CustomQueueCircularArray.kt)
     * [Queue (With Two Stacks) : Java](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/datastructures/queue/java/QueueWithTwoStacks.java)
-         
+    * [Queue (With Two Stacks) : Kotlin](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/datastructures/queue/kotlin/QueueWithTwoStacks.kt)
+                 
          * [leetcode 232](https://leetcode.com/problems/implement-queue-using-stacks/)  
          
                
              enqueue(item : T) - 0(1)
-             peek and pop O(N) Since we have to move items from primary stack to the other     
+             
+             peek and pop O(N) -
+              
+              Since we have to move items from primary stack to the other     
                                          
     
    *  [Test Case](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/test/java/datastructures/TestQueue.java)   
