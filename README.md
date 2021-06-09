@@ -97,4 +97,8 @@ Implementations are in both **Kotlin** and **Java**
     
 - **Dynamic Array** - Implementation for the Array List (Dynamic Array)
     * [Dynamic Array : Java](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/datastructures/array/java/CustomArray.java)
-    *  [Test Case](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/test/java/datastructures/TestArray.java)                                                                                                 
+    *  [Test Case](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/test/java/datastructures/TestArray.java) 
+    
+  **Linked List** - Implementation for the Linked List
+        * [Linked List (Singly) : Java](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/datastructures/linkedlist/java/CustomSinglyLinkedList.java)
+        *  [Test Case](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/test/java/datastructures/TestLinkedList.java)                                                                                                
