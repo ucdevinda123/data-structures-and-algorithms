@@ -34,8 +34,13 @@ Implementations are in both **Kotlin** and **Java**
 
 - **Bucket Sort**  - Todo 
 
-- **Counting Sort**  - Todo
-                     
+- **Counting Sort**  - 
+     Unlike above comparision based algorithms, Counting sort is a sorting technique based on keys between a specific range.   
+ 
+   * [Counting Sort : Java](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/sortingalgorithms/countingsort/java/CountingSort.java)   
+   * [Counting Sort : Kotlin](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/sortingalgorithms/countingsort/kotlin/CountingSort.kt)  
+   * [Test Case](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/test/java/sortingalgorithms/countingsort/CountingSortTest.java)     
+                          
 ### 2.)Searching Algorithms
 
 - **Linear Search**  
