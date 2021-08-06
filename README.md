@@ -40,7 +40,10 @@ Implementations are in both **Kotlin** and **Java**
    * [Counting Sort : Java](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/sortingalgorithms/countingsort/java/CountingSort.java)   
    * [Counting Sort : Kotlin](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/sortingalgorithms/countingsort/kotlin/CountingSort.kt)  
    * [Test Case](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/test/java/sortingalgorithms/countingsort/CountingSortTest.java)     
-                          
+       
+                 Best Case :  O(k) where K is the max 
+                 Worst Case  :  O(n) 
+                 Overall  O(n + k ) -> O(n)                     
 ### 2.)Searching Algorithms
 
 - **Linear Search**  
