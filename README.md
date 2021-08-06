@@ -30,7 +30,12 @@ Implementations are in both **Kotlin** and **Java**
                      Merge  :  O(n) 
                      O(n log n) 
                      
-- **Quick Sort**  - Todo
+- **Quick Sort**  - Quick sort is a highly efficient sorting algorithm and is based on partitioning of array of data into smaller arrays. ... Quicksort partitions an array and then calls itself recursively twice to sort the two resulting sub arrays.
+
+   * [Quick Sort : Java](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/sortingalgorithms/quicksort/java/QuickSort.java)   
+   * [Counting Sort : Kotlin] - todo;
+   * [Test Case](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/test/java/sortingalgorithms/quicksort/QuickSortTest.java)     
+    
 
 - **Bucket Sort**  - Todo 
 
