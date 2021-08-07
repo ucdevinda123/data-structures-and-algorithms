@@ -1,4 +1,4 @@
-# data-structures-and-algorithms
+# data-structures-and-algorithms [![CodeFactor](https://www.codefactor.io/repository/github/ucdevinda123/data-structures-and-algorithms/badge)](https://www.codefactor.io/repository/github/ucdevinda123/data-structures-and-algorithms)
 various data structures and algorithms and interview questions
 Implementations are in both **Kotlin** and **Java**
 
