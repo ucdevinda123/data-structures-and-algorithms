@@ -1,11 +1,12 @@
 # data-structures-and-algorithms [![CodeFactor](https://www.codefactor.io/repository/github/ucdevinda123/data-structures-and-algorithms/badge)](https://www.codefactor.io/repository/github/ucdevinda123/data-structures-and-algorithms)
 various data structures and algorithms and interview questions
-Implementations are in both **Kotlin** and **Java**
+Implementations are in both **Kotlin** &&  **Java** && **Python**
 
 ### 1.)Sorting Algorithms
 - **Bubble Sort**  
      * [BubbleSort : Java](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/sortingalgorithms/bubblesort/java/BubbleSort.java)   
      * [BubbleSort : Kotlin](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/sortingalgorithms/bubblesort/kotlin/BubbleSort.kt)  
+     * [BubbleSort : Python](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/sortingalgorithms/bubblesort/python/BubbleSort.py)      
      * [Test Case](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/test/java/sortingalgorithms/bubblesort/SortingAlgorithmTest.java)                     
                       
                         O(1) ~ O(N^2)
