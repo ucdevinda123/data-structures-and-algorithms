@@ -14,6 +14,7 @@ various data structures and algorithms and interview questions
 - **Selection Sort**   
      * [SelectionSort : Java](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/sortingalgorithms/selectionsort/java/SelectionSort.java)   
      * [SelectionSort : Kotlin](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/sortingalgorithms/selectionsort/kotlin/SelectionSort.kt)  
+     * [SelectionSort : Python](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/main/java/sortingalgorithms/selectionsort/python/SelectionSort.py)  
      * [Test Case](https://github.com/ucdevinda123/data-structures-and-algorithms/blob/master/src/test/java/sortingalgorithms/selectionsort/SelectionSortAlgorithmTest.java)     
                        
                         O(N) ~ O(N^2)
