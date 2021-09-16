@@ -3,11 +3,11 @@ package searchalgorithms.binarysearch.kotlin
 import searchalgorithms.SearchAlgorithm
 
 class BinarySearchRecursion : SearchAlgorithm() {
-    override fun search(inputArray: Array<Int>, target: Int): Int {
+    override fun search(inputArray: IntArray, target: Int): Int {
         return binarySearchUsingRecursion(inputArray, target, 0, inputArray.size - 1)
     }
 
-    private fun binarySearchUsingRecursion(inputArray: Array<Int>, target: Int, left: Int, right: Int): Int {
+    private fun binarySearchUsingRecursion(inputArray: IntArray, target: Int, left: Int, right: Int): Int {
         var middle = (left + right) / 2
         if (left > right) return -1
         if (inputArray[middle] == target) return middle

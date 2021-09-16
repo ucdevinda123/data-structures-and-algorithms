@@ -5,11 +5,11 @@ import searchalgorithms.SearchAlgorithm;
 
 public class BinarySearchRecursion extends SearchAlgorithm {
     @Override
-    public int search(@NotNull Integer[] inputArray, int target) {
+    public int search(@NotNull int[] inputArray, int target) {
         return binarySearchUsingRecursion(inputArray,target,0,inputArray.length -1);
     }
 
-    private int binarySearchUsingRecursion(@NotNull Integer[] inputArray, int target,int left, int right){
+    private int binarySearchUsingRecursion(@NotNull int[] inputArray, int target,int left, int right){
         int middle = (left + right) / 2;
         if(left > right) return -1;
         if(inputArray[middle] == target) return middle;

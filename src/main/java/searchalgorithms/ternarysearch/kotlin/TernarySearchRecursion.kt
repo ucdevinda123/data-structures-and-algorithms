@@ -3,11 +3,11 @@ package searchalgorithms.ternarysearch.kotlin
 import searchalgorithms.SearchAlgorithm
 
 class TernarySearchRecursion : SearchAlgorithm() {
-    override fun search(inputArray: Array<Int>, target: Int): Int {
+    override fun search(inputArray: IntArray, target: Int): Int {
         return binarySearchUsingRecursion(inputArray, target, 0, inputArray.size - 1)
     }
 
-    private fun binarySearchUsingRecursion(inputArray: Array<Int>, target: Int, left: Int, right: Int): Int {
+    private fun binarySearchUsingRecursion(inputArray: IntArray, target: Int, left: Int, right: Int): Int {
         var blockSize = (right - left) / 3
         if (left > right) return -1
         var m1 = left + blockSize
