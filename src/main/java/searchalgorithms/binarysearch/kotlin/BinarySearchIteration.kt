@@ -3,11 +3,11 @@ package searchalgorithms.binarysearch.kotlin
 import searchalgorithms.SearchAlgorithm
 
 class BinarySearchIteration : SearchAlgorithm() {
-    override fun search(inputArray: Array<Int>, target: Int): Int {
+    override fun search(inputArray: IntArray, target: Int): Int {
       return binarySearchUsingIteration(inputArray,target,0,inputArray.size-1)
     }
 
-    private fun binarySearchUsingIteration(inputArray: Array<Int>, target: Int, left: Int, right: Int): Int {
+    private fun binarySearchUsingIteration(inputArray: IntArray, target: Int, left: Int, right: Int): Int {
         var left = left
         var right = right
         while (left <= right) {

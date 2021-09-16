@@ -8,32 +8,32 @@ public class SortingAlgorithmTest {
 
     @Test
     public void testBubbleSortWithEmptyInputJava() {
-        Integer[] arrayInput = {};
-        Integer[] arrayExpected = {};
+        int[] arrayInput = {};
+        int[] arrayExpected = {};
         new sortingalgorithms.bubblesort.java.BubbleSort().sort(arrayInput);
         Assert.assertArrayEquals(arrayInput, arrayExpected);
     }
 
     @Test
     public void testBubbleSortWithEmptyInputKotlin() {
-        Integer[] arrayInput = {};
-        Integer[] arrayExpected = {};
+        int[] arrayInput = {};
+        int[] arrayExpected = {};
         new BubbleSort().sort(arrayInput);
         Assert.assertArrayEquals(arrayInput, arrayExpected);
     }
 
     @Test
     public void testBubbleSortWithArraySortedDescendingOrderJava() {
-        Integer[] arrayInput = {4, 3, 2, 1, 0};
-        Integer[] arrayExpected = {0, 1, 2, 3, 4};
+        int[] arrayInput = {4, 3, 2, 1, 0};
+        int[] arrayExpected = {0, 1, 2, 3, 4};
         new sortingalgorithms.bubblesort.java.BubbleSort().sort(arrayInput);
         Assert.assertArrayEquals(arrayInput, arrayExpected);
     }
 
     @Test
     public void testBubbleSortWithArraySortedDescendingOrderKotlin() {
-        Integer[] arrayInput = {4, 3, 2, 1, 0};
-        Integer[] arrayExpected = {0, 1, 2, 3, 4};
+        int[] arrayInput = {4, 3, 2, 1, 0};
+        int[] arrayExpected = {0, 1, 2, 3, 4};
         new BubbleSort().sort(arrayInput);
         Assert.assertArrayEquals(arrayInput, arrayExpected);
     }
@@ -41,16 +41,16 @@ public class SortingAlgorithmTest {
 
     @Test
     public void testBubbleSortWithArrayAlreadySortedJava() {
-        Integer[] arrayInput = {0, 1, 2, 3, 4};
-        Integer[] arrayExpected = {0, 1, 2, 3, 4};
+        int[] arrayInput = {0, 1, 2, 3, 4};
+        int[] arrayExpected = {0, 1, 2, 3, 4};
         new sortingalgorithms.bubblesort.java.BubbleSort().sort(arrayInput);
         Assert.assertArrayEquals(arrayInput, arrayExpected);
     }
 
     @Test
     public void testBubbleSortWithArrayAlreadySortedKotlin() {
-        Integer[] arrayInput = {0, 1, 2, 3, 4};
-        Integer[] arrayExpected = {0, 1, 2, 3, 4};
+        int[] arrayInput = {0, 1, 2, 3, 4};
+        int[] arrayExpected = {0, 1, 2, 3, 4};
         new BubbleSort().sort(arrayInput);
         Assert.assertArrayEquals(arrayInput, arrayExpected);
     }

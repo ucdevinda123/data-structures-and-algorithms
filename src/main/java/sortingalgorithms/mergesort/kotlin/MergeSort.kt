@@ -3,13 +3,13 @@ package sortingalgorithms.mergesort.kotlin
 import sortingalgorithms.SortingAlgorithm
 
 class MergeSort : SortingAlgorithm() {
-    override fun sort(input: Array<Int>) {
+    override fun sort(input: IntArray) {
         val length = input.size
         if (length < 2) return //Base condition
         //1.Find the middle and divide the array O(log)
         var middle = length / 2
-        var leftArray = Array(middle) { 0 } // 0 to middle
-        var rightArray = Array(length - middle) { 0 } // middle to end of the array (length)
+        var leftArray = IntArray(middle) { 0 } // 0 to middle
+        var rightArray = IntArray(length - middle) { 0 } // middle to end of the array (length)
 
         for (i in 0 until middle) {
             leftArray[i] = input[i]
@@ -28,7 +28,7 @@ class MergeSort : SortingAlgorithm() {
         merge(leftArray, rightArray, input)
     }
 
-    private fun merge(leftArray: Array<Int>, rightArray: Array<Int>, inputData: Array<Int>) {
+    private fun merge(leftArray: IntArray, rightArray: IntArray, inputData: IntArray) {
         var i = 0
         var j = 0
         var k = 0

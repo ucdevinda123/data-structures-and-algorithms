@@ -7,11 +7,11 @@ public class TernarySearchRecursion extends SearchAlgorithm {
 
 
     @Override
-    public int search(@NotNull Integer[] inputArray, int target) {
+    public int search(@NotNull int[] inputArray, int target) {
         return binarySearchUsingRecursion(inputArray,target,0,inputArray.length -1);
     }
 
-    private int binarySearchUsingRecursion(@NotNull Integer[] inputArray, int target,int left, int right){
+    private int binarySearchUsingRecursion(@NotNull int[] inputArray, int target,int left, int right){
         if(left > right) return -1;
         int blockSize = (right - left) / 3;
         int m1 = left + blockSize;

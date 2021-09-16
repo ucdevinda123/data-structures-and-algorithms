@@ -4,7 +4,7 @@ import sortingalgorithms.SortingAlgorithm
 import java.util.*
 
 class BubbleSort  : SortingAlgorithm(){
-    override fun sort(input: Array<Int>) {
+    override fun sort(input: IntArray) {
       val length = input.size
         var isSorted : Boolean
         for(i in 0 until length){

@@ -5,7 +5,7 @@ import sortingalgorithms.SortingAlgorithm;
 
 public class InsertionSort extends SortingAlgorithm {
     @Override
-    public void sort(@NotNull Integer[] input) {
+    public void sort(@NotNull int[] input) {
         int length = input.length;
         for (int i = 1; i < length; i++) {
             int current = input[i];
