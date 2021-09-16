@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 public class SelectionSort extends SortingAlgorithm {
     @Override
-    public void sort(@NotNull Integer[] input) {
+    public void sort(@NotNull int[] input) {
         int length = input.length;
         for (int i = 0; i < length; i++) {
             int minIndex = i;

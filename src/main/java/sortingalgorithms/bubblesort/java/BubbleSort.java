@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 public class BubbleSort extends SortingAlgorithm {
     @Override
-    public void sort(@NotNull Integer[] input) {
+    public void sort(@NotNull int[] input) {
         int length = input.length;
         boolean isSorted;
         for (int i = 0;i< length;i++){

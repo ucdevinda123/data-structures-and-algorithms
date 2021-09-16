@@ -2,7 +2,7 @@ package sortingalgorithms.countingsort.kotlin
 
 class CountingSort {
 
-    fun sort(inputData: Array<Int>, max: Int) {
+    fun sort(inputData: IntArray, max: Int) {
         var countingArray = Array(max + 1) {0}
         for (number in inputData) {
             countingArray[number]++

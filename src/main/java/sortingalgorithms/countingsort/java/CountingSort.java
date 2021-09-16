@@ -2,7 +2,7 @@ package sortingalgorithms.countingsort.java;
 import org.jetbrains.annotations.NotNull;
 
 public class CountingSort {
-    public void sort(@NotNull Integer[] input, int max) {
+    public void sort(@NotNull int[] input, int max) {
         int[] countArray = new int[max+1];
         for (int num : input) {
             countArray[num]++;

@@ -5,14 +5,14 @@ import sortingalgorithms.SortingAlgorithm;
 
 public class MergeSort extends SortingAlgorithm {
     @Override
-    public void sort(@NotNull Integer[] input) {
+    public void sort(@NotNull int[] input) {
         int length = input.length;
         if (length < 2) return;
         int middle = length / 2;
 
         //1.Find the middle and divide the array O(log)
-        Integer[] leftArray = new Integer[middle];
-        Integer[] rightArray = new Integer[length - middle];
+        int[] leftArray = new int[middle];
+        int[] rightArray = new int[length - middle];
 
         for (int i = 0; i < middle; i++) {
             leftArray[i] = input[i];
@@ -30,7 +30,7 @@ public class MergeSort extends SortingAlgorithm {
         merge(leftArray, rightArray, input);
     }
 
-    private void merge(Integer[] leftArray, Integer[] rightArray, Integer[] input) {
+    private void merge(int[] leftArray, int[] rightArray, int[] input) {
         int i = 0, j = 0, k = 0;
 
         while (i < leftArray.length && j < rightArray.length) {

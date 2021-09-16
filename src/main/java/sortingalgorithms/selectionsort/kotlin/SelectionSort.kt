@@ -3,7 +3,7 @@ package sortingalgorithms.selectionsort.kotlin
 import sortingalgorithms.SortingAlgorithm
 
 class SelectionSort : SortingAlgorithm() {
-    override fun sort(input: Array<Int>) {
+    override fun sort(input: IntArray) {
         val length = input.size
         for (i in 0 until length) {
             var minIndex = i

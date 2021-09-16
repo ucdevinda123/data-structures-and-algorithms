@@ -3,7 +3,7 @@ package sortingalgorithms.insertionsort.kotlin
 import sortingalgorithms.SortingAlgorithm
 
 class InsertionSort : SortingAlgorithm() {
-    override fun sort(input: Array<Int>) {
+    override fun sort(input: IntArray) {
         var length = input.size
         for (i in 1 until length) {
             var current = input[i]
