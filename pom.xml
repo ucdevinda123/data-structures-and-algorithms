@@ -8,7 +8,7 @@
     <artifactId>data-structures-and-algorithms</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
-        <kotlin.version>1.0.3</kotlin.version>
+        <kotlin.version>1.6.0</kotlin.version>
         <junit.version>4.13.1</junit.version>
         <java.version>1.8</java.version>
         <surefire.version>2.7.2</surefire.version>
